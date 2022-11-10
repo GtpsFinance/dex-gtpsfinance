@@ -25,7 +25,7 @@ const BackgroundColor = styled(Link)<{ show: boolean }>`
   z-index: ${Z_INDEX.sticky};
 `
 const PopupContainer = styled.div`
-  background-color: ${({ theme }) => (theme.darkMode ? theme.backgroundScrim : opacify(60, '#FDF0F8'))};
+  background-color: ${({ theme }) => (theme.darkMode ? theme.backgroundScrim : opacify(60, '#0D0BB1'))};
   background-image: url(./static/media/tokensPromoLight.bef97fb5.png);
   background-size: cover;
   background-blend-mode: overlay;
